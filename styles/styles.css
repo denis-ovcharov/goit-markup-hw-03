@@ -4,6 +4,9 @@ body{
 }
 ul{
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    
 }
 a{
     text-decoration: none;
@@ -11,10 +14,24 @@ a{
 .contacts-list {
     font-style: normal;
 }
-
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+h1,h2,h3,p{
+    margin: 0;
+}
 /* HEADER */
 .head-container{
-    background-color:#fff;;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+.underline{
+    border-bottom: 1px solid #e7e9fc;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -27,6 +44,7 @@ a{
 }
 .logo-top-part{
     color: #2e2f42;
+    margin-right: 76px;
 }
 .navigation-list-item{
     font-weight: 500;
@@ -47,11 +65,28 @@ a{
 .contacts-link:focus{
     color: #404bbf;
 }
+.navigation-list{
+    margin-right: 332px;
+    display: flex;
+    gap: 40px;
+}
+.contacts-list{
+    display: flex;
+    gap: 40px;
+}
+section{
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
 /* HERO SECTION */
 
 .hero-container{
     background-color:#2e2f42;
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 .hero-title{
     font-weight: 700;
@@ -59,18 +94,26 @@ a{
     line-height: 1.07143;
     letter-spacing: 0.02em; 
     color: #fff;
+    margin-bottom: 48px;
+}
+.hero-title-part{
+    display: block;
 }
 
 .hero-btn {
     cursor: pointer;
     border-radius: 4px;
     width: 169px;
-    height: 56px;
     background-color: #4d5ae5;
     color: #fff;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -84,11 +127,20 @@ a{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .benefits-list-item-descr{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.benefits-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.benefits-list-item{
+    width: 264px;
 }
 
 /* TEAM */
@@ -101,7 +153,8 @@ a{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
-    letter-spacing: 0.02em;  
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;  
 }
 .team-list-item-title{
     font-weight: 500;
@@ -118,6 +171,11 @@ a{
 .team-list-item:focus{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.team_list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
 
 /* PORTFOLIO */
 
@@ -127,6 +185,7 @@ a{
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 72px;
 }
 .portfolio-list-item-title{
     font-weight: 500;
@@ -139,7 +198,13 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.portfolio-list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 /* FOOTER */
 
 .bottom-container{
