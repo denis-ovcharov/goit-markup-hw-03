@@ -112,12 +112,10 @@ section{
     border: none;
     padding-top: 16px;
     padding-bottom: 16px;
-
-    
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    background-color:#404bbf; ;
+    background-color:#404bbf;
 }
 
 /* BENEFITS */
