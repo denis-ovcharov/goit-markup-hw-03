@@ -76,21 +76,31 @@ img {
 }
 .header {
     display: flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 .contacts-list {
     display: flex;
     gap: 40px;
+    
+}
+.navigation-container {
+    display: flex;
+    align-items: center;
+    
+}
+.head {
+    border-bottom: 1px solid #e7e9fc;
+}
+.head .logo {
+    margin-right: 76px;
 }
 .navigation-list {
     display: flex;
     gap: 40px;
-    padding-left: 76px;
-    padding-right: 332px;
+    margin-right: 332px;
 }
-.head {
-    border-bottom: 1px solid #e7e9fc;
+.navigation-list-item {
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 /* HERO SECTION */
 
