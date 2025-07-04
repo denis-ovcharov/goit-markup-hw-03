@@ -2,14 +2,30 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    
+   
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
+}
+.container {
+    max-width: 1158px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+h1,h2,h3,p {
+    margin: 0;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -56,12 +72,26 @@ a {
 .contacts-link:focus {
     color: #404bbf;
 }
-
+.header {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+.navigation-list {
+    display: flex;
+    gap: 40px;
+    padding-left: 76px;
+    padding-right: 332px;
+}
 /* HERO SECTION */
 
 .hero {
     background-color: #2e2f42;
-
+    text-align: center;
 }
 
 .hero-title {
@@ -70,7 +100,6 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center;
 }
 
 .hero-btn {
@@ -80,6 +109,10 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -89,19 +122,27 @@ a {
 }
 
 /* BENEFITS */
-
+.benefits-title {
+    display: none; 
+}
 .item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .item-descr {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+}
+.benefits-list {
+    display: flex;
+    gap: 24px;
 }
 
 /* TEAM */
@@ -110,7 +151,7 @@ a {
     background-color: #f4f4fd;
 }
 
-.team-title {
+.title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -118,22 +159,31 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+
 }
 
 .team-list-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.image {
+    margin-bottom: 32px;
 }
 
 /* PORTFOLIO */
 
-.portfolio-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
 }
 
 /* FOOTER */
@@ -150,4 +200,12 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+}
+.bottom .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
