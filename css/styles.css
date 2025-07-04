@@ -154,6 +154,9 @@ img {
 .benefits-list {
     display: flex;
     gap: 24px;
+    
+}
+.benefits-list-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
