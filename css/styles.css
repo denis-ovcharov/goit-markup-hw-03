@@ -77,7 +77,7 @@ img {
 .header {
     display: flex;
 }
-.contacts-list {
+.contacts-list-item {
     display: flex;
     gap: 40px;
     
