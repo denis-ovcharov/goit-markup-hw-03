@@ -218,6 +218,7 @@ h1,h2,h3,p{
 }
 .portfolio-list-item{
     flex-basis: calc((100% - 48px) / 3);
+    cursor: pointer;
 }
 .portfolio-list-item:hover,
 .portfolio-list-item:focus{
