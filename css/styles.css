@@ -196,7 +196,7 @@ img {
     gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
 }
-.item-text {
+.team-list-item .item-text {
     padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
@@ -204,7 +204,11 @@ img {
 
 /* PORTFOLIO */
 
-
+.portfolio-list-item .item-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
