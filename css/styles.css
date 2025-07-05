@@ -92,6 +92,9 @@ img {
 .navigation-list {
     display: flex;
     gap: 40px;
+
+}
+.navigation-list-item {
     padding-bottom: 24px;
     padding-top: 24px;
 }
