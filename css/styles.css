@@ -12,6 +12,8 @@ ul {
 
 a {
     text-decoration: none;
+    display: block;
+    
 }
 .container {
     max-width: 1158px;
@@ -51,7 +53,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .navigation-list-item-link:hover,
@@ -68,8 +71,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .contacts-link:hover,
@@ -78,8 +80,6 @@ img {
 }
 .head .logo {
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .head {
     border-bottom: 1px solid #e7e9fc;
