@@ -241,8 +241,6 @@ img {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 .bottom .container .logo {
     display: inline-block;
