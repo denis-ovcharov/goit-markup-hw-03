@@ -76,16 +76,16 @@ img {
 .head .logo {
     margin-right: 76px;
 }
-
 .header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px 15px;
 }
 .navigation-container {
     display: flex;
     margin-right: 332px;
+    align-items: center;
 }
 .navigation-list {
     display: flex;
@@ -95,8 +95,6 @@ img {
     display: flex;
     gap: 40px;
 }
-
-
 
 /* HERO SECTION */
 
