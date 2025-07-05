@@ -237,11 +237,7 @@ img {
     color: #f4f4fd;
     max-width: 264px;
 }
-.bottom .container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
-}
+
 .bottom .container .logo {
     display: inline-block;
     margin-bottom: 16px;
