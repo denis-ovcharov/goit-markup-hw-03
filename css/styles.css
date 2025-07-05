@@ -51,6 +51,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .navigation-list-item-link:hover,
@@ -92,11 +94,6 @@ img {
 .navigation-list {
     display: flex;
     gap: 40px;
-
-}
-.navigation-list-item {
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 .contacts-list {
     display: flex;
@@ -110,7 +107,6 @@ img {
     padding: 188px 0 188px;
     display: flex;
     text-align: center;
-    
 }
 
 .hero-title {
