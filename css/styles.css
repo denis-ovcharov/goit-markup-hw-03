@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    justify-items: ;
 }
 
 ul {
@@ -74,34 +73,31 @@ img {
 .contacts-link:focus {
     color: #404bbf;
 }
-.header {
-    display: flex;
+.head .logo {
+    margin-right: 76px;
 }
-.contacts-list {
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
-    gap: 40px;
-    
+    align-items: center;
+    padding: 24px 0;
 }
 .navigation-container {
     display: flex;
-    align-items: center;
-    
-}
-.head {
-    border-bottom: 1px solid #e7e9fc;
-}
-.head .logo {
-    margin-right: 76px;
+    margin-right: 332px;
 }
 .navigation-list {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
-.navigation-list-item-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
+
+
+
 /* HERO SECTION */
 
 .hero {
