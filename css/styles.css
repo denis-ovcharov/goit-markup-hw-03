@@ -77,7 +77,7 @@ img {
 .header {
     display: flex;
 }
-.contacts-list-item {
+.contacts-list {
     display: flex;
     gap: 40px;
     
@@ -106,8 +106,10 @@ img {
 
 .hero {
     background-color: #2e2f42;
-    text-align: center;
     padding: 188px 0 188px;
+    display: flex;
+    text-align: center;
+    
 }
 
 .hero-title {
@@ -117,6 +119,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -127,11 +130,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
-    margin-top: 48px;
     border: none;
     border-radius: 4px;
     display: block;
     min-width: 169px;
+    margin: 0 auto;
 }
 
 .hero-btn:hover,
