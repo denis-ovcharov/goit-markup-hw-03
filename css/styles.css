@@ -51,8 +51,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 24px;
-    padding-top: 24px;
+
 }
 
 .navigation-list-item-link:hover,
@@ -69,6 +68,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-link:hover,
@@ -77,27 +78,35 @@ img {
 }
 .head .logo {
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .head {
     border-bottom: 1px solid #e7e9fc;
+    
 }
 .header {
     display: flex;
     align-items: center;
     padding: 0 15px;
+    
+    
 }
 .navigation-container {
     display: flex;
     margin-right: 332px;
     align-items: center;
+    
 }
 .navigation-list {
     display: flex;
     gap: 40px;
+    
 }
 .contacts-list {
     display: flex;
     gap: 40px;
+    
 }
 
 /* HERO SECTION */
