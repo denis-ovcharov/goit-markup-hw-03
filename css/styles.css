@@ -11,9 +11,10 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; 
+}
+.head a {
     display: block;
-    
 }
 .container {
     max-width: 1158px;
